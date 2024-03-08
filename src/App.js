@@ -19,10 +19,12 @@ function App() {
     <NoteState>
     <Router>
     <Navebar/>
+    <div className='container'>
     <Routes>
     <Route exact path="/" element={<Home />} />
     <Route exact path="/about" element={<About />} />
     </Routes>
+    </div>
     </Router>
     </NoteState>
     </>
