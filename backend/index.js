@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 
-const port = 6000
+const port = 7000
 
 // Available Routes
 app.use('/api/auth', require('./routes/auth.js'))
