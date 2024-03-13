@@ -8,9 +8,11 @@ import './App.css';
 
 } from "react-router-dom";
 import Navebar from './components/Navebar';
-import Home from './components/Home';
+import {Home} from './components/Home';
 import About from './components/About';
 import NoteState from './context/notes/NoteState';
+
+
 
 
 function App() {
@@ -19,6 +21,9 @@ function App() {
     <NoteState>
     <Router>
     <Navebar/>
+    
+    
+  
     <div className='container'>
     <Routes>
     <Route exact path="/" element={<Home />} />
